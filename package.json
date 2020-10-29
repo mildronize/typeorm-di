@@ -1,7 +1,7 @@
 {
   "name": "typeorm-di",
-  "version": "0.0.2",
-  "description": "typeorm + typeorm + typeorm-typedi-extensions",
+  "version": "0.0.3",
+  "description": "It's just TypeORM, TypeDI and typeorm-typedi-extensions wrapper.",
   "author": "Thada Wangthammang",
   "repository": "mildronize/typeorm-di",
   "main": "dist/index.js",

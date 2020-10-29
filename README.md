@@ -1,6 +1,6 @@
 # TypeORM + TypeDI 
 
-It's just [TypeORM](https://typeorm.io/), `TypeDI`, `typeorm-typedi-extensions` wrapper.
+It's just [TypeORM](https://typeorm.io/), [TypeDI](https://github.com/typestack/typedi) and [typeorm-typedi-extensions](https://github.com/typeorm/typeorm-typedi-extensions) wrapper.
 
 You can import all from one place :) 
 
