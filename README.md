@@ -1,5 +1,7 @@
 # TypeORM + TypeDI 
 
+[![Build Status](https://travis-ci.org/mildronize/typeorm-di.svg?branch=main)](https://travis-ci.org/mildronize/typeorm-di)
+
 It's just [TypeORM](https://typeorm.io/), [TypeDI](https://github.com/typestack/typedi) and [typeorm-typedi-extensions](https://github.com/typeorm/typeorm-typedi-extensions) wrapper.
 
 You can import all from one place :) 
