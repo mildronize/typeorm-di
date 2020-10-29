@@ -12,6 +12,8 @@ e.g.
 import { Connection, createConnection, useContainer , Container} from "typeorm-di";
 ```
 
+For the usage, you can read on the [TypeORM](https://typeorm.io/), [TypeDI](https://github.com/typestack/typedi) and [typeorm-typedi-extensions](https://github.com/typeorm/typeorm-typedi-extensions) documentations.
+
 
 ## Installation
 
