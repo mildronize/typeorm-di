@@ -6,3 +6,4 @@ website
 .prettierrc
 rollup.config.js
 tsconfig.json
+tsconfig.type.json
