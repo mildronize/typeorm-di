@@ -15,9 +15,19 @@ import { Connection, createConnection, useContainer , Container} from "typeorm-d
 
 ## Installation
 
-```bash 
-npm install typeorm typedi typeorm-typedi-extensions reflect-metadata
-```
+1. Install the module
+
+    ```bash
+    npm install typeorm-di 
+    ```
+
+2. Install all dependencies (Peer)
+
+    ```bash 
+    npm install typeorm typedi typeorm-typedi-extensions reflect-metadata
+    ```
+
+###
 
 ## For building
 ```
