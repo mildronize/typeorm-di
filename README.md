@@ -1,6 +1,35 @@
-# npm-react-typescript-template
 # TypeORM + TypeDI 
 
+It's just [TypeORM](https://typeorm.io/), `TypeDI`, `typeorm-typedi-extensions` wrapper.
+
+You can import all from one place :) 
+
+e.g. 
+
+```bash
+import { Connection, createConnection, useContainer , Container} from "typeorm-di";
+```
+
+
+## Installation
+
+```bash 
+npm install typeorm typedi typeorm-typedi-extensions reflect-metadata
+```
+
+## For building
 ```
 npm install typeorm typedi typeorm-typedi-extensions reflect-metadata @types/node
+npm build
 ```
+
+## Docs
+
+There is only one object that duplicate between `TypeORM` and `TypeDI`: `ObjectType`
+
+In case you want to use `ObjectType`
+
+```
+import { ObjectType } from "typeorm-di";  // from `TypeORM`
+import { ObjectTypeDI } from "typeorm-di"; //from `TypeDI` 
+
