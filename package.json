@@ -1,0 +1,44 @@
+{
+  "name": "typeorm-di",
+  "version": "0.0.1",
+  "description": "typeorm + typeorm + typeorm-typedi-extensions",
+  "author": "Thada Wangthammang",
+  "repository": "mildronize/typeorm-di",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "npm run build:rollup && npm run type",
+    "build:rollup": "rollup -c",
+    "start": "rollup -c -w",
+    "type": "tsc -p tsconfig.type.json"
+  },
+  "peerDependencies": {
+    "reflect-metadata": ">= 0.1.13 < 0.2.0",
+    "typedi": ">= 0.8.0 < 0.9.0",
+    "typeorm": ">= 0.2.28 < 0.3.0",
+    "typeorm-typedi-extensions": ">= 0.2.3 < 0.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^6.0.0",
+    "rollup": "^2.32.1",
+    "typescript": "^4.0.5"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "typeorm",
+    "typedi"
+  ],
+  "dependencies": {
+    "@types/node": "^14.14.6",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.28",
+    "typeorm-typedi-extensions": "^0.2.3"
+  }
+}
